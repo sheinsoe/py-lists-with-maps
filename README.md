@@ -20,14 +20,18 @@ Assign the variable `palermo` to the first element of the `neighborhoods` list.
 
 
 ```python
-palermo = None
+palermo = palermo = neighborhoods[0] # 1/ assigned Variable Palermo 
+#2/ first element(list item) index 0 from Neighborhoods list 
+
 ```
 
 Now assign the variable `la_boca` to the last element of our list.
 
 
 ```python
-la_boca = None
+la_boca = la_boca = neighborhoods[5] # 1/ assigned Variable La_boca 
+#2/ last element(list item) index -1 or 5 from Neighborhoods list 
+
 ```
 
 Beyond the neighborhoods, another thing that we can think of representing as a collection are the coordinates of a city, latitude and longitude.  Below, our `coordinates` list contains the coordinates for Buenos Aires.  The first element is latitude and the second is longitude.
@@ -41,12 +45,12 @@ Set `ba_latitude` to equal the latitude of Buenos Aires and set `ba_longitude` t
 
 
 ```python
-ba_latitude = None
+ba_latitude = -34.6037
 ```
 
 
 ```python
-ba_longitude = None
+ba_longitude = -58.3816
 ```
 
 Now let's see if we can display this as a map.
